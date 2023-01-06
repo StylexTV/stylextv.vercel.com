@@ -2,16 +2,12 @@
   <AppFooterToolbarItem @click="onClick">
     Dark mode
 
-    <Icon v-if="toggled" name="toggle/on" class="w-6 h-6"/>
-    <Icon v-if="!toggled" name="toggle/off" class="w-6 h-6"/>
+    <Icon name="toggle/off" class="w-6 h-6 dark:hidden"/>
+    <Icon name="toggle/on" class="w-6 h-6 hidden dark:block"/>
   </AppFooterToolbarItem>
 </template>
 
 <script setup>
-defineProps({
-  toggled: false
-});
-
 const { toggleTheme } = useTheme();
 
 const onClick = () => toggleTheme();
