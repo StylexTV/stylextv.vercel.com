@@ -8,7 +8,9 @@
 </template>
 
 <script setup>
-const { toggleTheme } = useTheme();
+const { toggleTheme, updateTheme } = useTheme();
+
+onMounted(() => updateTheme());
 
 const onClick = () => toggleTheme();
 </script>
