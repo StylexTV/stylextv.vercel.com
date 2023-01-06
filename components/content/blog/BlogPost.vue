@@ -3,8 +3,7 @@
 
   <AppContentItem class="flex flex-col items-center">
     <BlogPostCover :post="post"/>
-    <BlogPostTitle>{{ post.title }}</BlogPostTitle>
-    <BlogPostDescription>{{ post.description }}</BlogPostDescription>
+    <BlogPostHead :post="post"/>
 
     <BlogPostContent :post="post"/>
   </AppContentItem>
