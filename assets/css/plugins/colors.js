@@ -33,6 +33,9 @@ module.exports = plugin(function({}) {}, {
         },
         'purple': {
           500: '#a855f7'
+        },
+        'pink': {
+          500: '#ec4899'
         }
       }
     }
