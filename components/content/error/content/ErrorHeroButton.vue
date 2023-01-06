@@ -1,5 +1,5 @@
 <template>
   <NuxtLink to="/">
-    <Button class="bg-white text-black text-sm">Go back home</Button>
+    <Button class="text-white bg-gray-750 dark:text-black dark:bg-white text-sm">Go back home</Button>
   </NuxtLink>
 </template>
