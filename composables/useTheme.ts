@@ -1,4 +1,6 @@
 export const useTheme = () => {
+  const { getLocalStorageItem, setLocalStorageItem, removeLocalStorageItem } = useLocalStorage();
+
   function toggleTheme() {
     const t = (theme() == 'dark') ? 'light' : 'dark';
 
@@ -17,12 +19,14 @@ export const useTheme = () => {
   }
 
   function theme() {
-    return localStorage.theme || preferedTheme();
+    const theme = getLocalStorageItem('theme');
+
+    return theme || preferedTheme();
   }
 
   function setTheme(theme: string) {
-    if(theme == preferedTheme()) localStorage.removeItem('theme');
-    else localStorage.theme = theme;
+    if(theme == preferedTheme()) removeLocalStorageItem('theme');
+    else setLocalStorageItem('theme', theme);
   }
 
   function preferedTheme() {

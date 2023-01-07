@@ -1,14 +1,25 @@
 <template>
   <div class="w-full flex items-start justify-end">
-    <BlogPostHeadStatsItem>
-      1K
+    <BlogPostHeadStatsItem @click="hasLiked = !hasLiked" interactable>
+      1.2K
 
-      <Icon name="heart" class="w-5 h-5"/>
+      <Icon v-if="!hasLiked" name="heart/stroke" class="w-5 h-5"/>
+      <Icon v-if="hasLiked" name="heart/fill" class="w-5 h-5 text-red-500"/>
     </BlogPostHeadStatsItem>
     <BlogPostHeadStatsItem>
-      1K
+      12.5K
 
       <Icon name="eye" class="w-5 h-5"/>
     </BlogPostHeadStatsItem>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      hasLiked: false
+    }
+  }
+}
+</script>

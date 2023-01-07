@@ -5,9 +5,7 @@
       <BlogPostHeadDescription>{{ post.description }}</BlogPostHeadDescription>
     </BlogPostHeadText>
 
-    <BlogPostHeadStats>
-      
-    </BlogPostHeadStats>
+    <BlogPostHeadStats/>
   </div>
 </template>
 
