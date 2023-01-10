@@ -13,7 +13,7 @@
 
 <script setup>
 useHead({
-  title: 'Page not found | StylexTV'
+  title: 'An error occurred | StylexTV'
 });
 
 const props = defineProps({
