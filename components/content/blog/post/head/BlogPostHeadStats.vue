@@ -1,7 +1,7 @@
 <template>
   <div class="w-full flex items-start justify-end">
     <BlogPostHeadStatsItem @click="hasLiked = !hasLiked" interactable>
-      1.2K
+      1.3K
 
       <Icon v-if="!hasLiked" name="heart/stroke" class="w-5 h-5"/>
       <Icon v-if="hasLiked" name="heart/fill" class="w-5 h-5 text-red-500"/>

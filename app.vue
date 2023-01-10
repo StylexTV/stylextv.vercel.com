@@ -19,4 +19,8 @@ useHead({
     return titleChunk ? `${titleChunk} | StylexTV` : 'StylexTV';
   }
 });
+
+const maintenance = true;
+
+if(maintenance) throw createError({ statusCode: 503, statusMessage: 'Site under maintenance' });
 </script>

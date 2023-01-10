@@ -4,7 +4,7 @@
       <AppLoadingIndicator/>
 
       <AppContent>
-        <ErrorHero/>
+        <ErrorHero :error="error"/>
       </AppContent>
       
     </NuxtLayout>
@@ -14,5 +14,9 @@
 <script setup>
 useHead({
   title: 'Page not found | StylexTV'
+});
+
+const props = defineProps({
+  error: Object
 });
 </script>
