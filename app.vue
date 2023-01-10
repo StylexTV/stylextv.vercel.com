@@ -22,5 +22,5 @@ useHead({
 
 const maintenance = true;
 
-if(maintenance) throw createError({ statusCode: 503, statusMessage: 'Site under maintenance' });
+if(maintenance) showError({ statusCode: 503, statusMessage: 'Site under maintenance' });
 </script>

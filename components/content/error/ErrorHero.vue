@@ -12,8 +12,11 @@ export default {
     error: Object
   },
   computed: {
+    statusCode() {
+      return error.statusCode || '500';
+    },
     statusMessage() {
-      if(this.error.statusCode == '404') return 'Page not found';
+      if(this.statusCode == '404') return 'Page not found';
 
       return this.error.statusMessage || 'An error occurred';
     }
