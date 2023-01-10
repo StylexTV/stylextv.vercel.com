@@ -13,7 +13,7 @@ export default {
   },
   computed: {
     statusCode() {
-      return error.statusCode || '500';
+      return this.error.statusCode || '500';
     },
     statusMessage() {
       if(this.statusCode == '404') return 'Page not found';
