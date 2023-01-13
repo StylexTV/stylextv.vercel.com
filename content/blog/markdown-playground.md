@@ -1,5 +1,5 @@
 ---
-title: Relaxing Fireplace
+title: Markdown Playground
 author: StylexTV
 description: Relax in Minecraft with Soothing Scene Videos and Wallpapers!
 ---
@@ -8,9 +8,6 @@ The holiday season is upon us, dear reader. It can be a stressful time no matter
 We have created a series of videos that will turn any screen into a relaxing Minecraft moment. The Minecraft world may be filled with adventure, but it’s also somewhere to appreciate the beauty of the small things. Like heavy drops of rain falling on the leaves of a mangrove tree. Or how the soft snow drifts down to wrap the Overworld up in a bright, white blanket. Find the five soothing scenes in a playlist on our YouTube channel, listen to the serene soundscapes on Spotify, and download their matching wallpapers to your device.
 
 Our writers are so devoted to their craft that they have sent postcards to help our readers answer the question – which soothing scene speaks to you? And if you feel compelled to answer, let us know in the comment section!
-
-:image{page="blog/relaxing-fireplace" path="soothing_scene.png"}
-<figcaption>A soothing scene to relax to</figcaption>
 
 If there’s anything I’ve learned from social media, it’s that 1) Almost nobody knows what “POV” means and 2) Foxes do NOT make good pets. They will scream all night, sleep all day, destroy everything you own, and they will never, ever be potty trained. And yet I still want one. Badly. Not even my Minecraft fox sanctuary will scratch that itch.
 
@@ -108,7 +105,7 @@ This text is ***really important***.
 
 ## Images
 
-:image{page="blog/relaxing-fireplace" path="soothing_scene.png"}
+:image{page="blog/markdown-playground" path="soothing_scene.png"}
 <figcaption>A soothing scene to relax to</figcaption>
 
 The holiday season is upon us, dear reader. It can be a stressful time no matter what you’re celebrating (or not celebrating). But I am here to remind, nay – urge you to relax that mind and unwind for a moment. And lo and behold, I just happen to have some gifts that will help you with that!
@@ -117,7 +114,7 @@ The holiday season is upon us, dear reader. It can be a stressful time no matter
 
 We have created a series of videos that will turn any screen into a relaxing Minecraft moment. The Minecraft world may be filled with adventure, but it’s also somewhere to appreciate the beauty of the small things. Like heavy drops of rain falling on the leaves of a mangrove tree. Or how the soft snow drifts down to wrap the Overworld up in a bright, white blanket. Find the five soothing scenes in a playlist on our YouTube channel, listen to the serene soundscapes on Spotify, and download their matching wallpapers to your device.
 
-### Emojies
+## Emojies
 
 > Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
 > Shortcuts (emoticons): :-) :-( 8-) ;)

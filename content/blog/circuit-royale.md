@@ -1,5 +1,5 @@
 ---
-title: Relaxing Beach Escape
+title: Circuit Royale
 author: StylexTV
 description: Relax in Minecraft with Soothing Scene Videos and Wallpapers!
 ---

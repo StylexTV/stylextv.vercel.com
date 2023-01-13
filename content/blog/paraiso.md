@@ -1,5 +1,5 @@
 ---
-title: Relaxing Aquarium
+title: Paraíso
 author: StylexTV
 description: Relax in Minecraft with Soothing Scene Videos and Wallpapers!
 ---
