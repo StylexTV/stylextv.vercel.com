@@ -20,7 +20,7 @@ useHead({
   }
 });
 
-const maintenance = false;
+const maintenance = true;
 
 const devMode = process.env.NODE_ENV == 'development';
 
