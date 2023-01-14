@@ -3,12 +3,11 @@
     <StartToolsTitle>Experienced with numerous languages and tools</StartToolsTitle>
 
     <StartToolsList>
-      <StartToolsListItem tool="unity/light" linkTo="https://unity.com" class="hidden dark:block"/>
-      <StartToolsListItem tool="unity/dark" linkTo="https://unity.com" class="dark:hidden"/>
-      <StartToolsListItem tool="nuxt" linkTo="https://nuxt.com"/>
-      <StartToolsListItem tool="vuejs" linkTo="https://vuejs.org"/>
-      <StartToolsListItem tool="tailwindcss" linkTo="https://tailwindcss.com"/>
-      <StartToolsListItem tool="javascript" linkTo="https://www.javascript.com"/>
+      <StartToolsListItem tool="behance" linkTo="https://unity.com"/>
+      <StartToolsListItem tool="unity" linkTo="https://unity.com"/>
+      <StartToolsListItem tool="xbox" linkTo="https://unity.com"/>
+      <StartToolsListItem tool="nintendo-switch" linkTo="https://unity.com"/>
+      <StartToolsListItem tool="firefox" linkTo="https://unity.com"/>
     </StartToolsList>
   </AppContentItem>
 </template>
