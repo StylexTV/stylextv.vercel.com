@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex items-start justify-end">
+  <div class="w-full flex items-start justify-end col-span-5">
     <BlogPostHeadStatsItem @click="hasLiked = !hasLiked" interactable>
       1.3K
 

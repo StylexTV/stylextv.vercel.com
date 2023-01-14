@@ -5,12 +5,12 @@
 <style>
 .animate-gradient {
   animation: gradient 15s ease infinite;
-	background-size: 200% 200%;
+  background-size: 200% 200%;
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
+  0% {
+	  background-position: 0% 50%;
 	}
 	50% {
 		background-position: 100% 50%;

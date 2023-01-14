@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full grid grid-cols-2">
+  <div class="w-full grid grid-cols-12">
     <BlogPostHeadText>
-      <BlogPostHeadTitle>{{ post.title }}</BlogPostHeadTitle>
+      <h1>{{ post.title }}</h1>
       <BlogPostHeadDescription>{{ post.description }}</BlogPostHeadDescription>
     </BlogPostHeadText>
 
