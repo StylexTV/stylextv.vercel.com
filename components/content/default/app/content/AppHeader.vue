@@ -1,5 +1,5 @@
 <template>
-  <AppContentItem class="w-[64rem] h-20 !py-0 grid grid-cols-3" showImmediately>
+  <AppContentItem class="w-full h-20 !max-w-none !mx-0 !py-0 grid grid-cols-3 bg-gray-900 border-b-2 border-gray-800" showImmediately>
     <AppHeaderLogo/>
 
     <AppHeaderNavbar>

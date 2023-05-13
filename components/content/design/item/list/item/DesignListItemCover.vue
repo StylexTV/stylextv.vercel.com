@@ -1,5 +1,5 @@
 <template>
-  <div class="h-[140px] relative rounded-xl">
+  <div class="h-[140px] relative">
     <slot></slot>
   </div>
 </template>

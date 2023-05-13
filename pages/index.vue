@@ -1,7 +1,6 @@
 <template>
   <StartHero/>
   <StartProjects/>
-  <StartTools/>
 </template>
 
 <script setup>

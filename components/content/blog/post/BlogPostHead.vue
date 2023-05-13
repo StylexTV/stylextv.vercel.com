@@ -4,8 +4,6 @@
       <h1>{{ post.title }}</h1>
       <BlogPostHeadDescription>{{ post.description }}</BlogPostHeadDescription>
     </BlogPostHeadText>
-
-    <BlogPostHeadStats/>
   </div>
 </template>
 

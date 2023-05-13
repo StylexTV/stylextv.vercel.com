@@ -1,9 +1,8 @@
 <template>
   <AppFooterToolbarItem @click="onClick">
-    Dark mode
+    Awards
 
-    <Icon name="toggle/off" class="w-6 h-6 dark:hidden"/>
-    <Icon name="toggle/on" class="w-6 h-6 hidden dark:block"/>
+    <Icon name="award" class="w-6 h-6"/>
   </AppFooterToolbarItem>
 </template>
 

@@ -5,9 +5,9 @@
 
     <StartProjectsList>
       <StartProjectsListItem project="maple" title="Maple" description="A Minecraft pathfinding bot that lets you navigate the vast landscapes of Minecraft without user input."/>
-      <StartProjectsListItem project="gsigns" title="GSigns" description="A server addon that lets you create beautiful images and animated GIFs in Minecraft."/>
-      <StartProjectsListItem project="lila" title="Lila" description="A chess program based on the UCI protocol, which can beat strong amateur players."/>
-      <StartProjectsListItem project="hycheat" title="HyCheat" description="A client addon designed to give you an edge on the popular Minecraft server Hypixel."/>
+      <StartProjectsListItem project="maple" title="GSigns" description="A server addon that lets you create beautiful images and animated GIFs in Minecraft."/>
+      <StartProjectsListItem project="maple" title="Lila" description="A chess program based on the UCI protocol, which can beat strong amateur players."/>
+      <StartProjectsListItem project="maple" title="HyCheat" description="A client addon designed to give you an edge on the popular Minecraft server Hypixel."/>
     </StartProjectsList>
   </AppContentItem>
 </template>

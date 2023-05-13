@@ -1,5 +1,5 @@
 <template>
-  <div ref="item" class="max-w-7xl mx-auto px-8 py-16 opacity-0 translate-y-20" :class="{ 'opacity-100 translate-y-0': show, 'transition duration-700': animate }">
+  <div ref="item" class="max-w-7xl mx-auto px-8 py-12 opacity-0 translate-y-20" :class="{ 'opacity-100 translate-y-0': show, 'transition duration-700': animate }">
     <slot></slot>
   </div>
 </template>

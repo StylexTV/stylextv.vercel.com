@@ -1,7 +1,7 @@
 <template>
-  <StartHeroBackground/>
+  <AppContentItem class="w-full !max-w-none mb-12 !py-20 flex flex-col items-center bg-gray-900 [&_b]:font-medium [&_b]:text-gray-700 dark:[&_b]:text-gray-200">
+    <StartHeroBackground/>
 
-  <AppContentItem class="w-full mt-32 mb-20 flex flex-col items-center [&_b]:font-medium [&_b]:text-gray-700 dark:[&_b]:text-gray-200">
     <StartHeroTitle emphasized>Overloaded</StartHeroTitle>
     <StartHeroTitle>Stuff Developer</StartHeroTitle>
     <StartHeroSubtitle>Hello there, and thanks for visiting my personal portfolio page. I am a mainly <b>Java oriented</b> software developer who loves to create things.</StartHeroSubtitle>
