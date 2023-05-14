@@ -1,5 +1,5 @@
 <template>
-  <AppContentItem class="w-full !max-w-none mb-12 !py-20 flex flex-col items-center bg-gray-900 [&_b]:font-medium [&_b]:text-gray-700 dark:[&_b]:text-gray-200">
+  <AppContentItem class="w-full !max-w-none mb-12 !py-20 flex flex-col items-center shadow-lg shadow-black/40 [&_b]:font-medium [&_b]:text-gray-200">
     <StartHeroBackground/>
 
     <StartHeroTitle emphasized>Overloaded</StartHeroTitle>

@@ -9,7 +9,7 @@
     </AppFooterNavbar>
 
     <AppFooterToolbar>
-      <AppFooterToolbarThemeToggle/>
+      <AppFooterToolbarAwardLabel/>
     </AppFooterToolbar>
   </AppContentItem>
 </template>

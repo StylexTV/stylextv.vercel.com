@@ -8,15 +8,15 @@ export default {
     name: String
   },
   computed: {
+    path() {
+      return '/content/default/assets/images/icons/' + this.name + '.svg'
+    },
     style() {
       return {
-        maskImage: 'url(' + this.path + ')',
+        webkitMaskImage: 'url(' + this.path + ')',
         maskRepeat: 'no-repeat',
         maskSize: 'cover'
       }
-    },
-    path() {
-      return '/content/default/assets/images/icons/' + this.name + '.svg'
     }
   }
 }

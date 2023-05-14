@@ -1,5 +1,5 @@
 <template>
-  <p class="mt-8 text-gray-500 dark:text-gray-400">
+  <p class="mt-8 text-gray-400">
     <slot></slot>
   </p>
 </template>

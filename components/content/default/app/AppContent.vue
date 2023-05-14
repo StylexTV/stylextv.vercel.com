@@ -3,9 +3,3 @@
     <slot></slot>
   </div>
 </template>
-
-<script setup>
-const { updateTheme } = useTheme();
-
-onMounted(() => updateTheme());
-</script>

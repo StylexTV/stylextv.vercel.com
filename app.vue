@@ -21,7 +21,6 @@ useHead({
 });
 
 const maintenance = true;
-
 const devMode = process.env.NODE_ENV == 'development';
 
 if(maintenance && !devMode) showError({ statusCode: 503, statusMessage: 'Site under maintenance' });
